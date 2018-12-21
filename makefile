@@ -8,5 +8,7 @@ README.md:
 	echo "This is a guessing game where you try to guess the number of files there are in the current directory you are on. To start the game type the following:" >> README.md
 	echo "" >> README.md
 	echo "\`bash guessinggame.sh\`" >> README.md
-	echo "guessinggame.sh contains $$(wc -l guessinggame.sh) lines." >> README.md
+	echo "" >> README.md
+	echo "guessinggame.sh contains $$(wc -l guessinggame.sh | grep -o ^[0-9]*) lines." >> README.md
+	echo "" >> README.md
 	echo "[GitHub repository](https://github.com/axk176431/guessing-game)" >> README.md
