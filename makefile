@@ -1,7 +1,7 @@
 all: README.md
 
 README.md:
-	echo "#Guessing game#" > README.md
+	echo "#Guessing game" > README.md
 	echo "" >> README.md
 	echo $$(date) >> README.md
 	echo "" >> README.md
